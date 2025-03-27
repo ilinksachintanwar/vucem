@@ -1,0 +1,98 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "espanol-feature;basic-espanol-scenario",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Basic ESPANOL scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 597402082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to \"google\"",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:13"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 6689082,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'navigate')\n    at CustomWorld.<anonymous> (/Users/sachint/IdeaProjects/vucem/src/step_definitions/common/commonSteps.js:17:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User enters \"ESPANOL\" in \"search_box\" on \"google\"",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User submits form using \"search_box\" on \"google\"",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:53"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 204799375
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 177041
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@espanol",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "espanol-feature",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "ESPANOL Feature",
+    "tags": [
+      {
+        "name": "@espanol",
+        "line": 1
+      }
+    ],
+    "uri": "features/ESPANOL/espanol.feature"
+  }
+]

@@ -1,0 +1,721 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "economia-feature;basic-economia-scenario",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Basic ECONOMIA scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 592932332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to \"google\"",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3041633415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User enters \"ECONOMIA\" in \"search_box\" on \"google\"",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28156874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User submits form using \"search_box\" on \"google\"",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3268217249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User verifies search results contain \"ECONOMIA\"",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:97"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10005188041,
+              "error_message": "page.waitForSelector: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div#search') to be visible\u001b[22m\n\n    at CustomWorld.<anonymous> (/Users/sachint/IdeaProjects/vucem/src/step_definitions/common/commonSteps.js:102:21)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 228955958
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 98167
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@economia",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "economia-feature",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "ECONOMIA Feature",
+    "tags": [
+      {
+        "name": "@economia",
+        "line": 1
+      }
+    ],
+    "uri": "features/ECONOMIA/economia.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "google-search;search-for-playwright-on-google-using-submit-form",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Search for Playwright on Google using submit form",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 598577958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User navigates to \"google\"",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13780146249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User enters \"Playwright\" in \"search_box_1\" on \"google\"",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13256250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User submits form using \"search_box\" on \"google\"",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:68"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10316062417,
+              "error_message": "page.waitForLoadState: Timeout 10000ms exceeded.\n=========================== logs ===========================\n  \"commit\" event fired\n  \"domcontentloaded\" event fired\n  \"load\" event fired\n============================================================\n    at ElementHelper.submitForm (/Users/sachint/IdeaProjects/vucem/src/utils/ElementHelper.js:217:18)\n    at async CustomWorld.<anonymous> (/Users/sachint/IdeaProjects/vucem/src/step_definitions/common/commonSteps.js:69:3)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 313573833
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 176083
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@economia",
+            "line": 1
+          },
+          {
+            "name": "@google",
+            "line": 1
+          },
+          {
+            "name": "@search",
+            "line": 1
+          },
+          {
+            "name": "@web",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 4
+          },
+          {
+            "name": "@critical",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "google-search;search-for-playwright-automation",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Search for Playwright automation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 599388125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "User navigates to \"google\"",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8637305624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "User enters \"Playwright automation\" in \"search_box\" on \"google\"",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18274124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "User submits form using \"search_box\" on \"google\"",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2801532917
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 174353125
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 41374
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@economia",
+            "line": 1
+          },
+          {
+            "name": "@google",
+            "line": 1
+          },
+          {
+            "name": "@search",
+            "line": 1
+          },
+          {
+            "name": "@web",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "google-search",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Google Search",
+    "tags": [
+      {
+        "name": "@economia",
+        "line": 1
+      },
+      {
+        "name": "@google",
+        "line": 1
+      },
+      {
+        "name": "@search",
+        "line": 1
+      },
+      {
+        "name": "@web",
+        "line": 1
+      }
+    ],
+    "uri": "features/ECONOMIA/googleSearch.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "espanol-feature;basic-espanol-scenario",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Basic ESPANOL scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 624646917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to \"google\"",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4486757541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User enters \"ESPANOL\" in \"search_box\" on \"google\"",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18436000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User submits form using \"search_box\" on \"google\"",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3693914084
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User verifies search results contain \"ESPANOL\"",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:97"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10005119874,
+              "error_message": "page.waitForSelector: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div#search') to be visible\u001b[22m\n\n    at CustomWorld.<anonymous> (/Users/sachint/IdeaProjects/vucem/src/step_definitions/common/commonSteps.js:102:21)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 213360458
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 46458
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@espanol",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "espanol-feature",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "ESPANOL Feature",
+    "tags": [
+      {
+        "name": "@espanol",
+        "line": 1
+      }
+    ],
+    "uri": "features/ESPANOL/espanol.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "file-upload-feature;upload-a-valid-file",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Upload a valid file",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 585736750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to \"upload_page\"",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4429020999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User uploads \"sample.txt\" file",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 471304374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User should see success message",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:139"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46439540
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 148249917
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32540
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@espanol",
+            "line": 1
+          },
+          {
+            "name": "@fileUpload",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "file-upload-feature;upload-an-invalid-file",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Upload an invalid file",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 594481290
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "User navigates to \"upload_page\"",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4006018666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User uploads \"invalid.exe\" file",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 451268750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User should see error message",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:160"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10001544332,
+              "error_message": "page.waitForSelector: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div.example h1') to be visible\u001b[22m\n\n    at CustomWorld.<anonymous> (/Users/sachint/IdeaProjects/vucem/src/step_definitions/common/commonSteps.js:165:21)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 196675834
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 37332
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@espanol",
+            "line": 1
+          },
+          {
+            "name": "@fileUpload",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "file-upload-feature",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "File Upload Feature",
+    "tags": [
+      {
+        "name": "@espanol",
+        "line": 1
+      },
+      {
+        "name": "@fileUpload",
+        "line": 1
+      }
+    ],
+    "uri": "features/ESPANOL/fileUpload.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "hacienda-feature;basic-hacienda-scenario",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Basic HACIENDA scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 635741999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to \"google\"",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3960505417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User enters \"HACIENDA\" in \"search_box\" on \"google\"",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12232999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User submits form using \"search_box\" on \"google\"",
+            "match": {
+              "location": "src/step_definitions/common/commonSteps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3286148375
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 164184916
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32458
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@hacienda",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "hacienda-feature",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "HACIENDA Feature",
+    "tags": [
+      {
+        "name": "@hacienda",
+        "line": 1
+      }
+    ],
+    "uri": "features/HACIENDA/hacienda.feature"
+  }
+]

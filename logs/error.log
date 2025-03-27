@@ -1,0 +1,950 @@
+2025-03-27 06:52:25 [CSVReader] error: Failed to load locators: Invalid Record Length: columns length is 3, got 4 on line 5
+2025-03-27 06:52:25 [CommonSteps] error: Failed to enter text into search_box: Invalid Record Length: columns length is 3, got 4 on line 5
+2025-03-27 06:52:25 [CSVReader] error: Error retrieving locators: Invalid Record Length: columns length is 3, got 4 on line 5
+2025-03-27 06:52:25 [CSVReader] error: Failed to load locators: Invalid Record Length: columns length is 3, got 4 on line 5
+2025-03-27 06:52:25 [CSVReader] error: Error retrieving locators: Invalid Record Length: columns length is 3, got 4 on line 5
+2025-03-27 06:53:40 [CommonSteps] error: Failed to enter text into search_box: locator.fill: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('//input[@name=\'q\']')[22m
+
+2025-03-27 06:55:22 [GooglePage] error: All navigation retries failed
+2025-03-27 07:06:13 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(@id' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(@id') to be visible[22m
+
+2025-03-27 07:06:18 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(@id' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(@id') to be visible[22m
+
+2025-03-27 07:06:26 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(@id' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(@id') to be visible[22m
+
+2025-03-27 07:20:49 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:20:52 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:20:57 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(@id' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(@id') to be visible[22m
+
+2025-03-27 07:21:11 [ElementHelper] error: Verification failed for 'search_result': [31mTimed out 10000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('//div[@id=\'search\']')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - locator._expect with timeout 10000ms[22m
+[2m  - waiting for locator('//div[@id=\'search\']')[22m
+
+2025-03-27 07:22:17 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:22:18 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:22:22 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(@id' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(@id') to be visible[22m
+
+2025-03-27 07:24:12 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(@id' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(@id') to be visible[22m
+
+2025-03-27 07:27:28 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:27:29 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:27:33 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(@id' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(@id') to be visible[22m
+
+2025-03-27 07:28:00 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(@id' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(@id') to be visible[22m
+
+2025-03-27 07:29:29 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(@id' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(@id') to be visible[22m
+
+2025-03-27 07:31:50 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(@id' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(@id') to be visible[22m
+
+2025-03-27 07:37:13 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(@id' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(@id') to be visible[22m
+
+2025-03-27 07:37:13 [CSVReader] error: Locator 'search_box_1' not found for page 'google'
+2025-03-27 07:37:13 [ElementHelper] error: Failed to wait for element 'search_box_1' to be visible: Locator 'search_box_1' not found for page 'google'
+2025-03-27 07:37:13 [ElementHelper] error: Failed to enter text into 'search_box_1': Locator 'search_box_1' not found for page 'google'
+2025-03-27 07:39:31 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(@id' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(@id') to be visible[22m
+
+2025-03-27 07:39:31 [CSVReader] error: Locator 'search_box_1' not found for page 'google'
+2025-03-27 07:39:31 [ElementHelper] error: Failed to wait for element 'search_box_1' to be visible: Locator 'search_box_1' not found for page 'google'
+2025-03-27 07:39:31 [ElementHelper] error: Failed to enter text into 'search_box_1': Locator 'search_box_1' not found for page 'google'
+2025-03-27 07:46:25 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:48:18 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: Document.evaluate: The expression is not a legal expression
+queryAll@debugger eval code:5716:25
+_queryEngineAll@debugger eval code:5930:49
+querySelectorAll@debugger eval code:5917:30
+@debugger eval code line 234 > eval:6:35
+evaluate@debugger eval code:236:17
+@debugger eval code:1:44
+
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:48:37 [ElementHelper] error: Failed to wait for element 'search_result' to be visible: locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('#search div.g') to be visible[22m
+
+2025-03-27 07:48:37 [GooglePage] error: Verification of search results failed: locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('#search div.g') to be visible[22m
+
+2025-03-27 07:48:41 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: Document.evaluate: The expression is not a legal expression
+queryAll@debugger eval code:5716:25
+_queryEngineAll@debugger eval code:5930:49
+querySelectorAll@debugger eval code:5917:30
+@debugger eval code line 234 > eval:6:35
+evaluate@debugger eval code:236:17
+@debugger eval code:1:44
+
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:48:48 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: Document.evaluate: The expression is not a legal expression
+queryAll@debugger eval code:5716:25
+_queryEngineAll@debugger eval code:5930:49
+querySelectorAll@debugger eval code:5917:30
+@debugger eval code line 234 > eval:6:35
+evaluate@debugger eval code:236:17
+@debugger eval code:1:44
+
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:49:06 [ElementHelper] error: Failed to wait for element 'search_result' to be visible: locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('#search div.g') to be visible[22m
+
+2025-03-27 07:49:06 [GooglePage] error: Verification of search results failed: locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('#search div.g') to be visible[22m
+
+2025-03-27 07:49:06 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:49:07 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:49:10 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: Document.evaluate: The expression is not a legal expression
+queryAll@debugger eval code:5716:25
+_queryEngineAll@debugger eval code:5930:49
+querySelectorAll@debugger eval code:5917:30
+@debugger eval code line 234 > eval:6:35
+evaluate@debugger eval code:236:17
+@debugger eval code:1:44
+
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:49:28 [ElementHelper] error: Failed to wait for element 'search_result' to be visible: locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('#search div.g') to be visible[22m
+
+2025-03-27 07:49:28 [GooglePage] error: Verification of search results failed: locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('#search div.g') to be visible[22m
+
+2025-03-27 07:50:14 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:50:14 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:50:14 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:50:22 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:50:22 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:50:29 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:50:29 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:50:32 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:50:33 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:50:33 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:50:33 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:50:37 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:50:37 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:50:52 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:50:52 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:50:55 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:50:55 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:51:00 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:55:21 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:55:21 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:55:21 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:55:27 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:55:27 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:55:28 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:55:35 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:55:35 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:55:36 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:55:38 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:55:38 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:55:38 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:55:39 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:55:39 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:55:39 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:55:43 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:55:43 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:55:44 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:58:58 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:58:58 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:58:58 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:59:04 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:59:05 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:59:05 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:59:12 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:59:12 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:59:12 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:59:15 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:59:15 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:59:16 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:59:16 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:59:16 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:59:16 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 07:59:20 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:59:21 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 07:59:22 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:03:51 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:03:52 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:03:52 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:03:58 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:03:59 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:03:59 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:04:05 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:04:06 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:04:07 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:04:09 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 08:04:09 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 08:04:10 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 08:04:10 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 08:04:10 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 08:04:11 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 08:04:13 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:04:14 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:04:15 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:05:10 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:05:18 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:05:26 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:05:30 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 08:05:30 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 08:05:35 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:07:25 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:07:32 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:07:40 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:07:43 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 08:07:43 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 08:07:48 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:09:06 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:09:13 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:09:22 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:09:25 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 08:09:25 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 08:09:29 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:11:19 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:11:26 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:11:34 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:11:37 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 08:11:37 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 08:11:41 [ElementHelper] error: Failed to wait for element 'accept_cookies_button' to be visible: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text()' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5716:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5930:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5917:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:6:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('//button[contains(text()') to be visible[22m
+
+2025-03-27 08:14:00 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 08:14:00 [CommonSteps] error: Navigation to upload_page is not implemented
+2025-03-27 08:16:41 [CommonSteps] error: Failed to enter text: ElementHelper is not a constructor
+2025-03-27 08:24:30 [ElementHelper] error: Failed to wait for element 'search_box_1' to be visible: locator.waitFor: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('//textarea[@name=\'q\']') to be visible[22m
+
+2025-03-27 08:24:30 [ElementHelper] error: Failed to enter text into 'search_box_1': locator.waitFor: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('//textarea[@name=\'q\']') to be visible[22m
+
+2025-03-27 08:24:30 [Hooks] error: Failed to take screenshot: page.screenshot: Target page, context or browser has been closed
+2025-03-27 08:24:33 [ElementHelper] error: Failed to wait for element 'search_box' to be visible: locator.waitFor: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('//textarea[@name=\'q\']') to be visible[22m
+
+2025-03-27 08:24:33 [ElementHelper] error: Failed to enter text into 'search_box': locator.waitFor: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('//textarea[@name=\'q\']') to be visible[22m
+
+2025-03-27 08:24:33 [Hooks] error: Failed to take screenshot: page.screenshot: Target page, context or browser has been closed
+2025-03-27 08:27:44 [CommonSteps] error: Failed to verify search results: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('div#search') to be visible[22m
+
+2025-03-27 08:28:02 [CommonSteps] error: Failed to verify search results: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('div#search') to be visible[22m
+
+2025-03-27 08:32:27 [CommonSteps] error: Failed to verify search results: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('div#search') to be visible[22m
+
+2025-03-27 08:32:52 [ElementHelper] error: Failed to submit form using 'search_box': page.waitForLoadState: Timeout 10000ms exceeded.
+=========================== logs ===========================
+  "commit" event fired
+  "domcontentloaded" event fired
+  "load" event fired
+============================================================
+2025-03-27 08:33:23 [CommonSteps] error: Failed to verify search results: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('div#search') to be visible[22m
+
+2025-03-27 08:33:44 [CommonSteps] error: Failed to verify error message: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('div.example h1') to be visible[22m
+
