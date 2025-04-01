@@ -2,6 +2,7 @@ const { setWorldConstructor } = require('@cucumber/cucumber');
 const { chromium, firefox, webkit } = require('@playwright/test');
 const GooglePage = require('../pages/GooglePage');
 const path = require('path');
+const logger = require('./logger');
 
 // Store browser and context at the module level to share across scenarios
 let browser = null;
@@ -9,9 +10,24 @@ let context = null;
 
 class CustomWorld {
   constructor({ parameters }) {
+    this.logger = logger;
     this.parameters = parameters;
     this.tempFiles = []; // Initialize tempFiles array
     this.currentFeature = null;
+    this.browser = null;
+    this.context = null;
+    this.page = null;
+    this.testName = '';
+    this.selectors = require('../page_objects/selectors.json');
+  }
+
+  getSelector(pageName, elementName) {
+    try {
+      return this.selectors[pageName][elementName];
+    } catch (error) {
+      this.logger.error(`Selector not found for ${elementName} on ${pageName}`);
+      throw new Error(`Selector not found for ${elementName} on ${pageName}`);
+    }
   }
 
   async init(featureUri) {
@@ -85,6 +101,18 @@ class CustomWorld {
     if (browser) {
       await browser.close();
       browser = null;
+    }
+  }
+
+  async setup() {
+    this.browser = await chromium.launch({ headless: false });
+    this.context = await this.browser.newContext();
+    this.page = await this.context.newPage();
+  }
+
+  async teardown() {
+    if (this.browser) {
+      await this.browser.close();
     }
   }
 }

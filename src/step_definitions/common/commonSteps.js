@@ -11,27 +11,24 @@ const logger = new Logger('CommonSteps');
 setDefaultTimeout(30000);
 
 // Navigation steps
-Given('User navigates to {string}', async function(pageName) {
-  logger.info(`Navigating to: ${pageName}`);
-  
+Given('User navigates to {string}', async function(url) {
   try {
-    if (pageName === 'google') {
+    this.logger.info(`Navigating to: ${url}`);
+    
+    if (url === 'google') {
       // Initialize the Google page if it doesn't exist
       if (!this.googlePage) {
         this.googlePage = new GooglePage(this.page);
       }
       await this.googlePage.navigate();
-    } else if (!pageName === 'google' && pageName !==null) {
-      // Navigate directly to the upload page
-      await this.page.goto(pageName);
     } else {
-      logger.error(`Navigation to ${pageName} is not implemented`);
-      throw new Error(`Navigation to ${pageName} is not implemented`);
+      // Navigate directly to the URL
+      await this.page.goto(url, { waitUntil: 'networkidle' });
     }
     
-    logger.info(`Successfully navigated to ${pageName}`);
+    this.logger.info(`Successfully navigated to: ${url}`);
   } catch (error) {
-    logger.error(`Failed to navigate to ${pageName}: ${error.message}`);
+    this.logger.error(`Failed to navigate to ${url}: ${error.message}`);
     throw error;
   }
 });
@@ -65,9 +62,15 @@ When('User selects {string} in {string} on {string}', async function(text, locat
 });
 
 // Wait steps
-When('User waits for {int} seconds', async function(seconds) {
-  logger.info(`Waiting for ${seconds} seconds`);
-  await this.page.waitForTimeout(seconds * 1000);
+When('User waits for {string} seconds', async function(seconds) {
+  try {
+    const ms = parseInt(seconds) * 1000;
+    this.logger.info(`Waiting for ${seconds} seconds`);
+    await this.page.waitForTimeout(ms);
+  } catch (error) {
+    this.logger.error(`Failed to wait for ${seconds} seconds: ${error.message}`);
+    throw error;
+  }
 });
 
 // Form submission steps
@@ -212,6 +215,30 @@ When('User add {string} in {string} on {string}', async function(fileName, locat
     logger.info(`Successfully added file ${fileName}`);
   } catch (error) {
     logger.error(`Failed to add file: ${error.message}`);
+    throw error;
+  }
+});
+
+Then('User enter {string} in {string} on {string}', async function(value, fieldName, pageName) {
+  try {
+    this.logger.info(`Entering "${value}" in "${fieldName}" on "${pageName}"`);
+    const selector = this.getSelector(pageName, fieldName);
+    await this.page.fill(selector, value);
+    this.logger.info(`Successfully entered text in ${fieldName}`);
+  } catch (error) {
+    this.logger.error(`Failed to enter text in ${fieldName}: ${error.message}`);
+    throw error;
+  }
+});
+
+Then('User verifies {string} on {string} is visible', async function(elementName, pageName) {
+  try {
+    this.logger.info(`Verifying "${elementName}" on "${pageName}" is visible`);
+    const selector = this.getSelector(pageName, elementName);
+    await this.page.waitForSelector(selector, { state: 'visible' });
+    this.logger.info(`Element "${elementName}" is visible`);
+  } catch (error) {
+    this.logger.error(`Failed to verify "${elementName}" is visible: ${error.message}`);
     throw error;
   }
 }); 

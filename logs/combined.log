@@ -2854,3 +2854,22 @@ Call log:
 2025-03-27 08:33:53 [Hooks] info: Browser closed
 2025-03-27 08:33:53 [Hooks] info: Test execution complete
 2025-03-27 08:33:53 [ParallelRunner] info: Tests for folder ESPANOL completed with failure
+2025-04-01 11:20:27 [Hooks] info: Test setup complete
+2025-04-01 11:20:27 [Hooks] info: Starting test execution
+2025-04-01 11:20:27 [Hooks] info: Starting scenario: End to end testing
+2025-04-01 11:20:27 [Hooks] info: Launching chromium browser (headless: false)
+2025-04-01 11:20:28 [Hooks] info: Browser setup complete
+2025-04-01 11:20:28 [CommonSteps] info: Navigating to: https://wwwqa.ventanillaunica.gob.mx/vucem/Ingreso.html
+2025-04-01 11:20:28 [Hooks] info: Finishing scenario: End to end testing
+2025-04-01 11:20:28 [Hooks] info: Scenario failed, taking screenshot
+2025-04-01 11:20:28 [CommonSteps] error: Navigation to https://wwwqa.ventanillaunica.gob.mx/vucem/Ingreso.html is not implemented
+2025-04-01 11:20:28 [CommonSteps] error: Failed to navigate to https://wwwqa.ventanillaunica.gob.mx/vucem/Ingreso.html: Navigation to https://wwwqa.ventanillaunica.gob.mx/vucem/Ingreso.html is not implemented
+2025-04-01 11:20:28 [Hooks] info: Screenshot saved to: /Users/sachint/vucem/screenshots/End_to_end_testing_2025-4-1_11-20-28.png
+2025-04-01 11:20:29 [Hooks] info: Browser closed
+2025-04-01 11:20:29 [Hooks] info: Test execution complete
+2025-04-01 11:22:09 [Hooks] info: Starting test execution
+2025-04-01 11:22:10 [Hooks] info: Test execution complete
+2025-04-01 11:22:22 [Hooks] info: Starting test execution
+2025-04-01 11:22:23 [Hooks] info: Test execution complete
+2025-04-01 11:22:54 [Hooks] info: Starting test execution
+2025-04-01 11:23:54 [Hooks] info: Test execution complete

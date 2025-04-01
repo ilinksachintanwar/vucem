@@ -12,6 +12,7 @@
     "test:google": "npx cucumber-js features/googleSearch.feature",
     "test:tags": "npx cucumber-js --tags",
     "test:google-tag": "npx cucumber-js --tags \"@google\"",
+    "test:120602": "npx cucumber-js --tags \"@120602\"",
     "test:report": "npx cucumber-js --format @cucumber/pretty-formatter --format allure-cucumberjs",
     "test:parallel": "node src/scripts/run-parallel.js",
     "test:parallel:features": "node src/scripts/run-parallel.js",

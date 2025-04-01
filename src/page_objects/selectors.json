@@ -1,0 +1,28 @@
+{
+  "login_page": {
+    "certificate_field": "#certificado",
+    "key_field": "#llave",
+    "password_field": "#password",
+    "login_button": "#btnFirmar"
+  },
+  "selectionrole_page": {
+    "selection_tab": "#tipoPersona",
+    "btn_accept": "#btnAceptar"
+  },
+  "trámitesDisponibles_page": {
+    "cuposDeImportaciónExportación": "//a[contains(text(), 'Cupos de Importación/Exportación')]",
+    "registroDeEmpresaComercialIndustriaFronteriza": "//a[contains(text(), 'Registro de Empresa Comercial/Industria Fronteriza')]",
+    "registroComoEmpresaFronteraPersonasFísicas": "//a[contains(text(), 'Registro como Empresa Frontera Personas Físicas')]"
+  },
+  "solicitante_tab": {
+    "continuar_btn": "#btnContinuar"
+  },
+  "daltosEmpresa_tab": {
+    "estoda_selection_tab": "#estado",
+    "representation_selection": "#municipio",
+    "tipoDeEmpresa": "#tipoEmpresa",
+    "documentName": "#nombreDocumento",
+    "continuar_btn": "#btnContinuar",
+    "folio_number": "#folioTramite"
+  }
+} 
