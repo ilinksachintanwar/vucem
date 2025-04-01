@@ -1,0 +1,5 @@
+locator_name,locator_type,locator_value
+certificate_field,id,certificate,
+key_field,id,privateKey,
+password_field,id,privateKeyPassword,
+submit_button,id,btnSubmit

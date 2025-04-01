@@ -13,6 +13,13 @@ bin-release/
 *.ipa
 *.apk
 
+#folders/files
+.reports/
+.screenshots/
+.node_modules/
+# Flash Builder 4.5+ specific files
+
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+

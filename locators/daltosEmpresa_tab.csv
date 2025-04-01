@@ -1,0 +1,7 @@
+locator,locator_type,locator_value
+estoda_selection_tab,id,solicitud.entidadFederativa.entidad.clave,
+representation_selection,id,representacionFederalSelect,
+tipoDeEmpresa,id,solicitud.tipoEmpresaRECIF.clave,
+continuar_btn,id,guardarSolicitud,
+documentName,id,actividadEconomica,
+folio_number,id,folio,

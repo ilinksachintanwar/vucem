@@ -1,0 +1,7 @@
+locator_name,locator_type,locator_value
+selection_tab,id,claveRol,
+option_PersonaFisica,xpath,//select[@id='claveRol']/option[2],
+option_AgenteAduanal,xpath,//select[@id='claveRol']/option[3],
+option_gestorcuentasex,xpath,//select[@id='claveRol']/option[4],
+option_PersonaOirRecibirNotificaciones,xpath,//select[@id='claveRol']/option[5],
+btn_accept,xpath,//button[@name='ingresar'],
