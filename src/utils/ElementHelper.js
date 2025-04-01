@@ -155,6 +155,20 @@ class ElementHelper {
     }
   }
 
+  async selectOption(page, text, pageName, locatorName, timeout = 10000) {
+    console.log(`Selecting option '${text}' in '${locatorName}' on '${pageName}'`);
+
+    try {
+        const dropdown = await this.waitForElement(page, pageName, locatorName, 'visible', timeout);
+        await dropdown.selectOption({ label: text });
+        console.log(`Successfully selected '${text}'`);
+    } catch (error) {
+        console.error(`Failed to select '${text}': ${error.message}`);
+        throw error;
+    }
+}
+
+
   /**
    * Perform a keyboard action on an element
    * @param {Page} page - Playwright page object
