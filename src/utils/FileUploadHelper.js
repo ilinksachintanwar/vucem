@@ -21,8 +21,9 @@ class FileUploadHelper {
     this.logger.info(`Uploading file '${filePath}' to '${locatorName}' on '${pageName}'`);
     
     try {
+      const folderPath = path.resolve(__dirname, 'certificates_key', fileName);
       // Resolve the file path (check multiple locations)
-      const resolvedFilePath = this.resolveFilePath(filePath);
+      const resolvedFilePath = this.resolveFilePath(folderPath);
       
       // Get the locator for the file input element
       const ElementHelper = require('./ElementHelper');

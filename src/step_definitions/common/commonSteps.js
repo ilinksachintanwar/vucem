@@ -21,9 +21,9 @@ Given('User navigates to {string}', async function(pageName) {
         this.googlePage = new GooglePage(this.page);
       }
       await this.googlePage.navigate();
-    } else if (pageName === 'upload_page') {
+    } else if (!pageName === 'google' && pageName !==null) {
       // Navigate directly to the upload page
-      await this.page.goto('https://the-internet.herokuapp.com/upload');
+      await this.page.goto(pageName);
     } else {
       logger.error(`Navigation to ${pageName} is not implemented`);
       throw new Error(`Navigation to ${pageName} is not implemented`);
@@ -56,6 +56,12 @@ When('User gets text of {string} on {string}', async function(locatorName, pageN
   const text = await ElementHelper.getText(this.page, pageName, locatorName);
   this.textContent = text; // Store for later use
   return text;
+});
+
+// Select options
+
+When('User selects {string} in {string} on {string}', async function(text, locatorName, pageName) { 
+  await ElementHelper.selectOption(this.page, text, pageName, locatorName); 
 });
 
 // Wait steps
