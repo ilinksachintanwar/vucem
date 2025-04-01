@@ -948,3 +948,5 @@ Call log:
 Call log:
 [2m  - waiting for locator('div.example h1') to be visible[22m
 
+2025-04-01 11:20:28 [CommonSteps] error: Navigation to https://wwwqa.ventanillaunica.gob.mx/vucem/Ingreso.html is not implemented
+2025-04-01 11:20:28 [CommonSteps] error: Failed to navigate to https://wwwqa.ventanillaunica.gob.mx/vucem/Ingreso.html: Navigation to https://wwwqa.ventanillaunica.gob.mx/vucem/Ingreso.html is not implemented
