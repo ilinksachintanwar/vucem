@@ -1,0 +1,3 @@
+locator_name,locator_type,locator_value
+tramites_menu,xpath,//a[@id='Trámites'],
+Solicitudes_nuevas,xpath,//a[contains(text(),'Solicitudes nuevas')][1],
