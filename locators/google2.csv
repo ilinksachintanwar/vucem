@@ -1,6 +1,4 @@
 locator_name,locator_type,locator_value
-rfc,id,rfcSolicitante,
-continuar_btn,id,guardarSolicitud,
 search_box,xpath,//textarea[@name='q']
 search_box_1,xpath,//textarea[@name='q']
 search_result,css,#search div.g
